@@ -1,0 +1,22 @@
+{
+  "name": "node-liver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "liver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "liver": "./liver.js"  
+  },
+  "author": "allenice <994298628@qq.com> (http://blog.allenice233.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.5.3",
+    "yargs": "^3.25.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
