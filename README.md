@@ -3,7 +3,12 @@ node-liver
 livereload for node.
 
 ## 安装
+node-liver 使用了 grunt, 如果没有 grunt 坏境的话，请先安装 [grunt](http://gruntjs.com/)
 ```bash
+# 如果没有 grunt 坏境，请先安装 grunt
+sudo npm install grunt-cli -g
+
+# 安装 node-liver
 sudo npm install node-liver -g
 ```
 
