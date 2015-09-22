@@ -2,7 +2,7 @@ module.exports = function(grunt) {
   var path = require('path');
   var args = require('yargs').argv;
   var exts = ['js', 'css', 'html'];
-  var paths = args.path;
+  var paths = Array.isArray(args.path) ? args.path : [args.path];
   var fileList = [];
   var port = true;
 
