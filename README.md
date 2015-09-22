@@ -8,6 +8,7 @@ sudo npm install node-liver -g
 ```
 
 ## 使用
+请在浏览器安装 livereload 的插件：[http://help.livereload.com/kb/general-use/browser-extensions](http://help.livereload.com/kb/general-use/browser-extensions)
 ```bash
 liver [path] [--port port]
 

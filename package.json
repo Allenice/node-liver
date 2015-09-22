@@ -9,6 +9,14 @@
   "bin": {
     "liver": "./liver.js"  
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Allenice/node-liver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Allenice/node-liver/issues"
+  },
+  "homepage": "https://github.com/Allenice/node-liver",
   "author": "allenice <994298628@qq.com> (http://blog.allenice233.com/)",
   "license": "ISC",
   "dependencies": {

@@ -1,21 +1,24 @@
 module.exports = function(grunt) {
+  var path = require('path');
   var args = require('yargs').argv;
   var exts = ['js', 'css', 'html'];
   var paths = args.path;
   var fileList = [];
-  var port;
+  var port = true;
 
   if(args.port) {
     port = args.port;
   }
 
+  console.log('livereload:', port);
+
   paths.forEach(function(item) {
     exts.forEach(function(ext) {
-      fileList.push(item + '**/*.' + ext);
+      fileList.push(item + '**'+ path.sep +'*.' + ext);
     });
   });
 
-  console.log(fileList);
+  console.log('watch: \n', fileList);
 
   grunt.loadNpmTasks('grunt-contrib-watch');
 
