@@ -1,6 +1,6 @@
 {
   "name": "node-liver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "liver.js",
   "scripts": {
@@ -21,10 +21,9 @@
   "license": "ISC",
   "dependencies": {
     "shelljs": "^0.5.3",
-    "yargs": "^3.25.0"
-  },
-  "devDependencies": {
+    "yargs": "^3.25.0",
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1"
   }
+  
 }
